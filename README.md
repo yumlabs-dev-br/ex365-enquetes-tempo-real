@@ -8,7 +8,7 @@ API REST + WebSocket para enquetes ao vivo, com resultados atualizados em tempo 
 
 ```bash
 npm install
-npm start        # inicia em http://localhost:3006
+npm start        # inicia em http://localhost:3000
 ```
 
 O projeto já sobe com uma rota raiz `GET /`. Todo o resto é com o grupo.
