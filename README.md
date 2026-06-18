@@ -32,7 +32,7 @@ Os testes automáticos sobem o **seu** servidor e fazem requisições HTTP reais
 - [ ] Votar **duas vezes** na mesma enquete (mesmo usuário/sessão) é bloqueado (**409**).
 - [ ] Votar em enquete **encerrada** responde **409**.
 - [ ] `GET /enquetes/:id/resultados` retorna percentuais que somam ~100%.
-- [ ] Ao votar, os clientes conectados ao **WebSocket** da enquete recebem os resultados atualizados.
+- [ ] Ao votar, os clientes conectados ao **WebSocket** da enquete recebem os resultados atualizados _(a parte WebSocket é verificada pelo professor na revisão; o validador automático cobre a parte REST)_.
 
 ## 👥 Trabalho em equipe (obrigatório)
 
